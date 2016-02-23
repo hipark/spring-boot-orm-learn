@@ -21,7 +21,7 @@
 ![spring-boot-orm-learn Fork](./images/start/spring-boot-orm-learn_Fork.jpg)
 
 3. 자신의 Github 계정에 Clone 되었는지 확인  
-![Clone 확인](./images/start/Clone_확인.jpg)
+![Clone Check](./images/start/Clone_Check.jpg)
 
 ## Install Git
 1. Git Homepage 접속  
@@ -59,14 +59,14 @@ Git-2.7.1.2-64-bit.exe 실행
 ![hipark-spring-boot-orm-learn URL Copy](./images/start/hipark-spring-boot-orm-learn_URL_Copy.jpg)
 
 2. git clone 명령어
-```
-//clone 대상 경로에 위치한 후 명령어
-git clone https://github.com/hipark/spring-boot-orm-learn.git
-```
+    ```
+    //clone 대상 경로에 위치한 후 명령어
+    git clone https://github.com/hipark/spring-boot-orm-learn.git
+    ```
 ![git clone](./images/start/git_clone.jpg)
 
 3. git clone 확인  
-![git clone 확인](./images/start/git_clone_확인.jpg)
+![git clone check](./images/start/git_clone_check.jpg)
 
 ## STS 설치
 
@@ -140,16 +140,16 @@ Path에 `GRADLE_HOME/bin` 추가
 ![Environment variables 2](./images/start/Environment_variables_2.jpg)
 
 4. 설치 확인  
-```
-gradle --version
-```
+    ```
+    gradle --version
+    ```
 ![Gradle Installed](./images/start/Gradle_Installed.jpg)
 
 ## 실행가능한 jar 파일 생성
 1. cmd에서 gradle build 입력
-```
-gradle build
-```
+    ```
+    gradle build
+    ```
 ![Gradle_Build](./images/start/Gradle_Build.jpg)
 
 2. Build Successful 확인  
@@ -159,9 +159,9 @@ gradle build
 
 ## jar로 Project 실행
 1. `java -jar` 명령어로 Project 실행
-```
-java -jar springboot-orm-learn-0.0.1-SNAPSHOT.jar
-```
+    ```
+    java -jar springboot-orm-learn-0.0.1-SNAPSHOT.jar
+    ```
 ![Start Project](./images/start/Start_Project.jpg)
 
 2. 서버 실행 확인  
