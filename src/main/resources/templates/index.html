@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout" layout:decorator="layout/default">
+
+<div layout:fragment="content">
+  <div class="starter-template">
+    <h1 th:text="${greeting}">Greeting</h1>
+    <p class="lead">Thymeleaf, Thymeleaf layout dialect, webjars(jquery, bootstrap)</p>
+  </div>
+</div>
+
+<script layout:fragment="script" type="text/javascript">
+/* <![CDATA[ */
+	console.log("index.html");
+	var a = 1;
+	var b = 2;
+	if(a < b) {
+		console.log("a < b");
+	}
+/* ]]> */
+</script>
+</html>
