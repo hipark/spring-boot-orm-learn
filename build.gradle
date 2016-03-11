@@ -20,7 +20,7 @@ jar {
 }
 
 ext {
-	javaVersion = 1.8
+	javaVersion = 1.7
 }
 
 sourceCompatibility = javaVersion
@@ -52,6 +52,7 @@ dependencies {
      */
     compile "com.zaxxer:HikariCP"
 	compile "com.h2database:h2"
+	compile "org.projectlombok:lombok:1.16.6"
 	
 	testCompile "com.jayway.jsonpath:json-path"
 	testCompile "org.springframework.boot:spring-boot-starter-test" 
@@ -66,7 +67,7 @@ eclipse {
 }
 
 task wrapper(type: Wrapper) {
-	gradleVersion = '2.10'
+	gradleVersion = '2.11'
 }
 
 configurations {
