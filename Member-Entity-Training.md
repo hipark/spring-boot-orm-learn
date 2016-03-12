@@ -15,7 +15,7 @@
     >serializable 구현 -> 직렬, 역직렬화 가능
 
 3. Member.java  
-  ```
+  ```java
   package io.honeymon.learn.orm.member;
 
   import java.io.Serializable;
@@ -59,7 +59,7 @@
   ![create_member_repository_interface_2.png](./images/member-entity-training/create_member_repository_interface_2.png)
 
 2. MemberRepository.java
-  ```
+  ```java
   package io.honeymon.learn.orm.member;
 
   import org.springframework.data.jpa.repository.JpaRepository;
@@ -80,7 +80,7 @@
   ![create_member_service_interface_2.png](./images/member-entity-training/create_member_service_interface_2.png)
 
 2. MemberService.java  
-  ```  
+  ```java
   package io.honeymon.learn.orm.member;
 
   /**
@@ -125,7 +125,7 @@
   ![create_member_service_impl_java_2](./images/member-entity-training/create_member_service_impl_java_2.png)
 
 2. MemberServiceImpl.java  
-  ```
+  ```java
   package io.honeymon.learn.orm.member;
 
   import org.springframework.beans.factory.annotation.Autowired;
@@ -175,7 +175,7 @@
   ![create_member_service_test_java_2](./images/member-entity-training/create_member_service_test_java_2.png)
 
 3. MemberServiceTest.java
-  ```
+  ```java
   package io.honeymon.learn.orm.member;
 
   import static org.hamcrest.CoreMatchers.*;
